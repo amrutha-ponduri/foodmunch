@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.custom-nav-link {
+    color: #8a6b04 !important;
+    font-family: 'Roboto';
+}
+
+.custom-nav-link:hover {
+    color: #614b02 !important;
+    font-size: 18px;
+}
+
+.logo-decor {
+    width: 70px;
+    height: 70px;
+}
+
+.background {
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/foodmunch-banner-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: 'Roboto';
+    text-align: center;
+}
+
+.banner-heading-decor {
+    color: white;
+    font-size: 40px;
+}
+
+.banner-para-decor {
+    color: white;
+    font-size: 20px;
+}
+
+.banner-button-decor {
+    border-radius: 5px;
+    border-color: #d0b200;
+    border-style: solid;
+    border-width: 2px;
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.banner-button-decor:hover {
+    border-width: 0px;
+    background-image: linear-gradient(#a88f32, #e8c64a);
+}
+
+.banner-button-decor:focus {
+    outline: none;
+}
+
+.wcu-section {
+    background-color: #f7f8fa;
+}
+
+.wcu-heading,
+.follow-us-heading {
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.wcu-description {
+    font-size: 20px;
+    color: #7b8794;
+    font-style: italic;
+}
+
+.wcu-card-decor {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.wcu-card-decor:hover {
+    transform: rotateZ(1deg);
+}
+
+.wcu-gradient:hover {
+    background-image: radial-gradient(#f7f7f7, #faf3de);
+}
+
+.wcu-card-container,
+.image-container-decor,
+.icon-container-decor {
+    perspective: 1000px;
+}
+
+.wcu-card-heading {
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.wcu-card-description {
+    font-size: 15px;
+    color: #7b8794;
+    font-weight: 200;
+}
+
+.offer-highlight {
+    color: #d0b200;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.image-hover-decor:hover {
+    transform: translate3d(0, 0, 30px);
+}
+
+.em-image-decor {
+    margin-bottom: 15px;
+    border-radius: 18px;
+}
+
+.link-decor {
+    color: #d0b200;
+}
+
+.custom-button {
+    border-width: 0px;
+    background-image: linear-gradient(#a88f32, #e8c64a);
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 10px;
+    width: 150px;
+}
+
+.custom-button:focus {
+    outline: none;
+}
+
+.health-section-description {
+    font-size: 20px;
+}
+
+.icon-decor {
+    color: #8f7e03;
+    font-size: 40px;
+    background-image: linear-gradient(#a88f32, #e8c64a);
+    border-radius: 40px;
+    padding: 15px;
+    margin: 15px;
+    margin-bottom: 30px;
+}
+
+.link-decor:hover {
+    text-decoration: none;
+    color: #8f7e03;
+}
+
+.icon-decor:hover {
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotateZ(0deg);
+    }
+
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+.thanking-container {
+    background-color: #fcf6c7;
+    padding: 20px;
+}
+
+.thanking-heading {
+    font-weight: bold;
+    font-family: 'Roboto';
+    font-size: 30px;
+}
+
+.thanking-image-decor {
+    width: 60%;
+    margin: 10px;
+}
+
+.thanking-paragraph {
+    color: #807f7a;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.modal-title,
+.close,
+.close:hover {
+    color: #8c7d07;
+}
+
+.email-decor {
+    color: #d9d8d7;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.address-decor {
+    color: #d9d8d7;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.video-decor {
+    width: 100%;
+}
